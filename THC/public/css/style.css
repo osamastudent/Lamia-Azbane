@@ -1,0 +1,260 @@
+.sidebar {
+    background: #384959 !important;
+    color: #fff;
+    border-right: 1px solid #e9ecef;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+}
+
+.sidebar-dark .nav-item .nav-link {
+     color: #fff !important;
+}
+.sidebar-dark #sidebarToggle {
+    background-color: #526d85 !important;
+}
+
+/* Body */
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Intake Card */
+.intake-card {
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    padding: 50px 45px;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid #e9ecef;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.intake-card:hover {
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+    transform: translateY(-3px);
+}
+
+/* Headings */
+h3 {
+    color: #4361ee;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+/* Form Section Title */
+.form-section-title {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #4361ee;
+    border-left: 4px solid #4895ef;
+    padding-left: 10px;
+}
+
+/* Form Controls */
+.form-control,
+.form-select,
+textarea {
+    background-color: #ffffff;
+    color: #212529;
+    border-radius: 10px;
+    border: 1px solid #e9ecef;
+    transition: 0.25s ease;
+    font-size: 0.95rem;
+}
+
+.form-control:focus,
+.form-select:focus,
+textarea:focus {
+    border-color: #4895ef;
+    box-shadow: 0 0 0 0.15rem rgba(67, 97, 238, 0.15);
+    background-color: #ffffff;
+    color: #212529;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(90deg, #4361ee, #3f37c9);
+    border: none;
+    border-radius: 12px;
+    padding: 12px 35px;
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #4895ef, #4361ee);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(67, 97, 238, 0.3);
+}
+
+/* Text Muted */
+.text-muted {
+    color: #6c757d !important;
+}
+
+/* Disabled Inputs */
+.form-control:disabled, .form-control[readonly] {
+    background-color: #f1f3f9 !important;
+    opacity: 1;
+}
+
+/* Suggestion Box */
+.suggestion-box {
+    background: #e8f4ff;
+    border-left: 4px solid #4895ef;
+}
+
+/* Female Health Section */
+.female-health-section {
+    background: #f0f7ff;
+    border-radius: 12px;
+}
+
+/* Checked Inputs */
+.form-check-input:checked {
+    background-color: #4361ee;
+    border-color: #4361ee;
+}
+
+/* Profile Details */
+.profile-details {
+    background: linear-gradient(135deg, #f5f7ff 0%, #f0f4ff 100%);
+    border-radius: 14px;
+}
+
+/* Icons */
+.icon-primary {
+    color: #4361ee;
+}
+.icon-warning {
+    color: #fd7e14;
+}
+.icon-danger {
+    color: #e83e8c;
+}
+
+/* Card */
+.card {
+    background: #ffffff;
+    color: #212529;
+    border: 1px solid #e9ecef;
+    border-radius: 14px;
+}
+
+/* Horizontal Rule */
+hr {
+    border-top: 2px solid #e9ecef;
+    margin: 1.5rem 0;
+}
+
+
+/*recommended doctor*/
+.page-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  margin-bottom: 30px;
+}
+
+.page-header h3 {
+  font-weight: 600;
+  margin: 0;
+  background: linear-gradient(90deg, #48CAE4, #7B2FF7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.accordion-button {
+  background-color: #1B263B;
+  color: #E0E6ED;
+  padding: 1rem;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #162039;
+  color: #fff;
+}
+
+.accordion-body {
+  background-color: #1B263B;
+  color: #E0E6ED;
+}
+
+.doctor-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #48CAE4;
+}
+
+.accordion-header .doctor-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.accordion-header .doctor-info div {
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-body ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+
+ table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    thead {
+        background: #f9fafc;
+        border-bottom: 2px solid #e5e9f2;
+    }
+
+    thead th {
+        font-size: 13px;
+        font-weight: 600;
+        color: #6c7a91;
+        text-transform: uppercase;
+        padding: 14px 18px;
+        white-space: nowrap;
+        letter-spacing: 0.5px;
+    }
+
+    tbody tr {
+        background: #ffffff;
+        border-bottom: 1px solid #eef1f7;
+        transition: 0.2s;
+    }
+
+    tbody tr:hover {
+        background: #f4f6fa;
+    }
+
+    td {
+        padding: 14px 18px;
+        font-size: 14px;
+        color: #2f3a4c;
+        vertical-align: middle;
+    }
+
+
+
+
+

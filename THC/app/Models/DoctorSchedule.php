@@ -1,0 +1,13 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class DoctorSchedule extends Model
+{
+    protected $table = 'doctor_schedules';
+    protected $fillable = [
+        'doctor_id','type' , 'day_of_week', 'date', 'start_time', 'end_time', 'is_available'
+    ];
+}
